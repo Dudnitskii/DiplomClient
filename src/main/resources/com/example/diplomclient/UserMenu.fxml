@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.diplomclient.UserMenuController">
+    <children>
+        <AnchorPane layoutY="0" prefHeight="120.0" prefWidth="800.0" style="-fx-background-color: grey;">
+            <children>
+                <Button fx:id="btnProfile" layoutX="655.0" layoutY="44.0" mnemonicParsing="false" style="-fx-background-radius: 25;" text="Профиль">
+                    <font>
+                        <Font name="Arial" size="17.0" />
+                    </font>
+                </Button>
+            </children></AnchorPane>
+        <Button fx:id="btnCard" layoutX="300.0" layoutY="188.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="200.0" style="-fx-background-radius: 25;" text="Мед карта">
+            <font>
+                <Font name="Arial" size="17.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnRequest" layoutX="300.0" layoutY="300.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="200.0" style="-fx-background-radius: 25;" text="Запросы">
+            <font>
+                <Font name="Arial" size="17.0" />
+            </font>
+        </Button>
+      <Button fx:id="btnShedule" layoutX="300.0" layoutY="410.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="200.0" style="-fx-background-radius: 25;" text="Расписание">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

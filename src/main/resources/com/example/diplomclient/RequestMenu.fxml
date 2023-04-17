@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.diplomclient.RequestMenuController">
+    <children>
+    <AnchorPane layoutY="0" prefHeight="120.0" prefWidth="800.0" style="-fx-background-color: grey;">
+        <children>
+
+        </children></AnchorPane>
+    </children>
+    <Button fx:id="btnBack" layoutX="678.0" layoutY="520.0" mnemonicParsing="false" style="-fx-background-radius: 25;" text="Назад">
+        <font>
+            <Font name="Arial" size="17.0" />
+        </font>
+    </Button>
+   <TableView fx:id="tableRequest" layoutX="50.0" layoutY="160.0" prefHeight="300.0" prefWidth="700.0">
+     <columns>
+       <TableColumn fx:id="colDoctor" minWidth="80.0" prefWidth="115.99998092651367" text="Кому" />
+         <TableColumn fx:id="colMedicine" prefWidth="150.00001525878906" text="Препарат" />
+       <TableColumn fx:id="colDescription" minWidth="106.40003967285156" prefWidth="296.5999755859375" text="Описание" />
+         <TableColumn fx:id="colStatus" maxWidth="1.7976931348623157E308" minWidth="137.800048828125" prefWidth="137.800048828125" text="Статус" />
+     </columns>
+   </TableView>
+   <Button fx:id="btnCreate" layoutX="116.0" layoutY="520.0" mnemonicParsing="false" style="-fx-background-radius: 25;" text="Создать">
+      <font>
+         <Font name="Arial" size="17.0" />
+      </font>
+   </Button>
+   <Button fx:id="btnDelete" disable="true" layoutX="252.0" layoutY="520.0" mnemonicParsing="false" style="-fx-background-radius: 25;" text="Удалить">
+      <font>
+         <Font name="Arial" size="17.0" />
+      </font>
+   </Button>
+
+</AnchorPane>
